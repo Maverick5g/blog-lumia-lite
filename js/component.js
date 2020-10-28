@@ -1,8 +1,9 @@
 Vue.component('blogcard',{
-    data(){
-        return{
+    data() {
+        return {
             items: []
-        }},
+        }
+    },
     template: '<div id="blogs"><div class="blog-titles" v-for="item in items"><a href="">{{ item.title }}</a></div></div>',
     methods: {
         onclick: function () {
@@ -13,8 +14,4 @@ Vue.component('blogcard',{
             .then(res => res.json())
             .then(items => this.items = items)
     }
-});
-
-new Vue({
-    el:'#app',
 });
