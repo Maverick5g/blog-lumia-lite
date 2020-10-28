@@ -6,8 +6,10 @@ var routes = [
         }
     },{
         path:'/blog',
-        component:{
-            template: '<blogcard></blogcard>',
+        components:{
+            blogcard: {
+                template: '<blogcard></blogcard>'
+            },
         }
     },{
         path:'/about',
