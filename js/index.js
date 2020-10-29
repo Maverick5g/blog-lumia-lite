@@ -1,8 +1,10 @@
 var routes = [
     {
         path:'/',
-        component:{
-            template:'<home></home>'
+        components:{
+            home: {
+                template:'<home></home>'
+            }
         }
     },{
         path:'/blog',
@@ -13,8 +15,10 @@ var routes = [
         }
     },{
         path:'/about',
-        component:{
-            template:'<about></about>'
+        components:{
+            about: {
+                template:'<about></about>'
+            }
         }
     },{
         path: '/blog/:article',
