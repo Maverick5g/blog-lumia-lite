@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="813a9a9b-8f83-4e1b-94c2-42d79dfe3860" name="默认更改列表" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/../lite/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lite/.idea/classic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lite/.idea/lite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lite/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lite/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lite/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lite/css/home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lite/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lite/js/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lite/js/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lite/js/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lite/js/jquery-1.8.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lite/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../lite" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jURS9W8lbPxowumDO4o3WLT0ZZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -67,6 +58,7 @@
       <workItem from="1603857250551" duration="92000" />
       <workItem from="1603857608051" duration="3819000" />
       <workItem from="1603866878670" duration="13885000" />
+      <workItem from="1603971611718" duration="92000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1603863833406</created>
@@ -124,9 +116,10 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="320" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1603863846006" />
-    <state x="508" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603868316480">
+    <state x="508" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603971660026">
       <screen x="0" y="23" width="1440" height="833" />
     </state>
+    <state x="508" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.833/-265.-1057.1920.1057@0.23.1440.833" timestamp="1603971660026" />
     <state x="508" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.833@0.23.1440.833" timestamp="1603868316480" />
     <state x="506" y="132" key="svn.repositoryBrowser" timestamp="1603857203165">
       <screen x="0" y="23" width="1440" height="833" />
