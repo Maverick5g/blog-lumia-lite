@@ -17,7 +17,8 @@ Vue.component('blogcard', {
         '            </div>\n' +
         '     </router-link>' +
         '        </div>\n' +
-        '    </div>',
+        '    </div>\n' +
+        '   </div>',
     methods: {
         onclick: function () {
             alert('hello')
@@ -50,18 +51,21 @@ Vue.component('about', {
         '</div>'
 })
 
-Vue.component('article', {
+Vue.component('blogArticle', {
     data() {
         return {
             item: ''
         }
     },
-    template: '<h1>A??</h1>',
+    template: `<div>
+        <p v-html="item.content"></p>
+    </div>`,
     methods: {
         onclick: function () {
             alert('hello')
         },
     }, created: function () {
+        console.log('Hello')
         fetch(`https://blog.lumia.pw/api/articles/${this.$route.params.article}.json`)
             .then(res => res.json())
             .then(res => this.item = res)

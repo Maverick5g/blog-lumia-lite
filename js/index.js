@@ -19,7 +19,9 @@ var routes = [
     },{
         path: '/blog/:article',
         components:{
-            template:'<article></article>'
+            blogArticle: {
+                template:'<blogArticle></blogArticle>'
+            }
         }
     }
 ]
