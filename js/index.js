@@ -2,7 +2,7 @@ var routes = [
     {
         path:'/',
         component:{
-            template:'<h1>WelcomeToHome</h1>'
+            template:'<home></home>'
         }
     },{
         path:'/blog',
@@ -14,7 +14,12 @@ var routes = [
     },{
         path:'/about',
         component:{
-            template:'<h1>关于我</h1>'
+            template:'<about></about>'
+        }
+    },{
+        path: '/blog/:article',
+        components:{
+            template:'<article></article>'
         }
     }
 ]
