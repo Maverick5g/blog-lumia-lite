@@ -11,6 +11,7 @@ a:hover{
     margin-top: 20px;
     box-shadow: 0 15px 20px 0 rgba(0,0,0,0.3);
 }
+
 #blogs{
     margin-top: 10px;
 }
@@ -36,6 +37,16 @@ a:hover{
     margin-top: 20px;
     border-radius: 10px 10px;
     background-color: rgb(246,247,248);
+}
+.blogarticles {
+    margin-top: 20px;
+    background-color: rgb(246, 247, 248);
+    border-radius: 10px 10px;
+    box-shadow: 0 15px 20px 0 rgba(0,0,0,0.3);
+}
+.article-info{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .media:hover{
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);

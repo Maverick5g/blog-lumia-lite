@@ -4,7 +4,7 @@ Vue.component('blogcard', {
             items: []
         }
     },
-    template: '<div id="blogs">\n' +
+    template: '<div id="blogs" class="container">\n' +
         '    <div class="blog-titles" v-for="item in items">\n' +
         '       <router-link v-bind:to=" \'/blog/\' + item.slug">' +
         '        <div class="card">\n' +
@@ -31,7 +31,7 @@ Vue.component('blogcard', {
 });
 
 Vue.component('home', {
-    template: '<div class="jumbotron">\n' +
+    template: '<div class="jumbotron container">\n' +
         '    <h1 class="display-3">Welcome to Lumia</h1>\n' +
         '    <p align="right" class="lead">你知道吗？在芬兰语中，它是"lumi"的复数形式，表示"雪"。</p>\n' +
         '    <hr class="my-4">\n' +
@@ -40,7 +40,7 @@ Vue.component('home', {
 })
 
 Vue.component('about', {
-    template: '<div class="media">\n' +
+    template: '<div class="media container">\n' +
         '  <img class="align-self-start mr-3" src="https://avatars3.githubusercontent.com/u/25610655?s=460&u=51b3d03d41d456d0a31467a09e1153018e871155&v=4" alt="Generic placeholder image">\n' +
         '  <div class="media-body">\n' +
         '    <h5 class="mt-0">Hi,I am marvrick</h5>\n' +
@@ -57,8 +57,18 @@ Vue.component('blogArticle', {
             item: ''
         }
     },
-    template: `<div>
-        <p v-html="item.content"></p>
+    template: `<div class="container">
+    <div class=" row  blogarticles">
+        <div class="col-3"></div>
+        <div class="col  m-auto" >
+            <div class="article-info">
+                <h1>{{item.title}}</h1>
+                <span>{{item.date}}</span>
+            </div>
+            <div class="content" v-html="item.content"></div>
+        </div>
+        <div class="col-3"></div>
+    </div>
     </div>`,
     methods: {
         onclick: function () {
