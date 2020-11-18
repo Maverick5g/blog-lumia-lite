@@ -13,7 +13,7 @@ Vue.component('blogcard', {
         '                <div v-for="tag in item.tags">\n' +
         '                    <h6 class="card-subtitle mb-2 text-muted">{{tag.name}}</h6>\n' +
         '                </div>\n' +
-        '                <p class="card-text">{{item.excerpt.substring(0,80)}}</p>\n' +
+        '                <p class="card-text">{{ item.excerpt.substring(0,80) || "没有简介" }}</p>\n' +
         '            </div>\n' +
         '     </router-link>' +
         '        </div>\n' +
@@ -26,7 +26,10 @@ Vue.component('blogcard', {
     }, created: function () {
         fetch('https://blog.lumia.pw/api/posts.json')
             .then(res => res.json())
-            .then(items => this.items = items)
+            .then(items => {
+                console.log(this);
+                this.items = items;
+            })
     }
 });
 
